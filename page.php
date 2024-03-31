@@ -1,0 +1,20 @@
+<html>
+    <head>
+    <?php
+        $num=require_once("process.php");
+        ?>
+        <?php
+        include_once("link.php");
+        ?>
+    </head>
+    <body>
+        <?php
+    include_once("header.php");
+     ?>
+     </br></br></br></br></br></br></br></br></br>
+       <?php
+      include_once("login.php");
+ include_once("footer.php");
+        ?>
+    </body>
+</html>
